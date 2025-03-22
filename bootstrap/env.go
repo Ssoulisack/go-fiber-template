@@ -32,8 +32,8 @@ type Env struct {
 	} `mapstructure:"file"`
 
 	JWT struct {
-		AccessToken          string `mapstructure:"access_token"`
-		RefreshToken         string `mapstructure:"refresh_token"`
+		AccessToken  string `mapstructure:"access_token"`
+		RefreshToken string `mapstructure:"refresh_token"`
 	} `mapstructure:"jwt"`
 }
 
