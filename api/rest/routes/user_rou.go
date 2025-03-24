@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"go-fiber/api/controllers"
+	"go-fiber/api/rest/controllers"
 	"go-fiber/data/repositories"
 	"go-fiber/data/services"
 

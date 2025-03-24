@@ -3,7 +3,7 @@ package utilities
 import (
 	"errors"
 	"fmt"
-	"go-fiber/api/middleware"
+	"go-fiber/api/rest/middleware"
 	"go-fiber/core/logs"
 	"net/http"
 	"time"

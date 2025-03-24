@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-fiber/api/routes"
+	"go-fiber/api/rest/routes"
 	"go-fiber/bootstrap"
 	"log"
 )
