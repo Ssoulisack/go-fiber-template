@@ -12,7 +12,7 @@ type UserCtrl interface {
 }
 
 type userCtrl struct {
-	userSvc services.UserService
+	userSvc *services.UserService
 }
 
 func (u *userCtrl) GetAllUsers(ctx *fiber.Ctx) error {
@@ -20,7 +20,7 @@ func (u *userCtrl) GetAllUsers(ctx *fiber.Ctx) error {
 	return nil
 }
 
-func NewUserCtrl(userSvc services.UserService) UserCtrl {
+func NewUserCtrl(userSvc *services.UserService) UserCtrl {
 	return &userCtrl{
 		userSvc: userSvc,
 	}
